@@ -8,7 +8,7 @@ import { CardActionArea } from '@mui/material';
 const CardUser = ({ char }) => {
     const {image, title, description, price} = char;
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 300  }}>
     <CardActionArea>
       <CardMedia
         component="img"

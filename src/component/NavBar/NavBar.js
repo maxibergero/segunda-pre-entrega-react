@@ -9,13 +9,13 @@ const NavBar = () => {
         <Link className="li" to="/">
           Home
         </Link>
-        <Link className="li" to="/about">
-          About
+        <Link className="li" to="/category/electronics">
+         electronics
         </Link>
-        <Link className="li" to="/contact">
-          Contact
+        <Link className="li" to="/category/jewelery">
+        jewelery
         </Link>
-      
+              
       </ul>
     </nav>
   );

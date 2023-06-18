@@ -7,10 +7,10 @@ import Header from './component/Header/Header'
 import NavBar from './component/NavBar/NavBar'
 
 
-import AboutPage from './Pages/AboutPage/AboutPage'
-import ContactPage from './Pages/ContactPage/ContactPage'
+
 import HomePage from './Pages/HomePage/HomePage'
 import DetailPage from './Pages/DetailPage/DetailPage'
+import Category from './Pages/Category/Category'
 
 
 const App = () => {
@@ -21,9 +21,8 @@ const App = () => {
       <NavBar/>
     <Routes>
       <Route path='/' element={<HomePage/>}/>
-      <Route path='/about' element={<AboutPage/>}/>
-      <Route path='/contact' element={<ContactPage/>}/>
       <Route path='/detail/:id' element={<DetailPage/>}/>
+      <Route path='/category/:categoryId' element={<Category/>}/>
     </Routes>
     </div>
     </Router>
