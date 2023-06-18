@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/segunda-pre-entrega-react/static/css/main.892b0760.css",
+    "main.js": "/segunda-pre-entrega-react/static/js/main.f43c8f6b.js",
+    "index.html": "/segunda-pre-entrega-react/index.html",
+    "main.892b0760.css.map": "/segunda-pre-entrega-react/static/css/main.892b0760.css.map",
+    "main.f43c8f6b.js.map": "/segunda-pre-entrega-react/static/js/main.f43c8f6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.892b0760.css",
+    "static/js/main.f43c8f6b.js"
+  ]
+}
